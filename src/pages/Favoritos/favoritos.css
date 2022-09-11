@@ -1,0 +1,65 @@
+.meusfilmes{
+    display: flex;
+    margin-top: 25px;    
+    flex-direction: column;
+    align-items: center;
+}
+
+.meusfilmes h1{
+    margin-bottom: 14px;
+}
+
+.meusfilmes span{
+    font-size: 18px;
+
+}
+
+.meusfilmes ul{
+    width: 700px;
+}
+
+.meusfilmes ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+
+}
+
+.meusfilmes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meusfilmes div a{
+    text-decoration: none;
+    color: blue;
+    margin-right: 14px;
+}
+
+.meusfilmes button{
+    margin-right: 15px;
+    margin-top: 14px;
+    margin-left: 0;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.meusfilmes button:hover{
+    background-color: brown;
+    color: white;
+}
+
+.meusfilmes ul li div a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+
+}
